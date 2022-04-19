@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <ul>
+            <li><h1>Web Pizzas</h1></li>
+            <li><h2>Controle de vendas</h2></li>
+        </ul>
+    </header>
+
+    <section>
+        <form>
+            <h3>Selecione os sabores vendidos</h3>
+            <ul>
+                <li><input type="radio" id="mussarela" name="pizzas">
+                <label for="mussarela">Mussarela</label></li>
+                <li><input type="radio" id="mista" name="pizzas">
+                <label for="mista">Mista</label></li>
+                <li><input type="radio" id="calabresa" name="pizzas">
+                <label for="calabresa">Calabresa</label></li>
+                <li><input type="radio" id="strogonoff" name="pizzas">
+                    <label for="strogonoff">strogonoff</label></li>
+            </ul>
+        </form>
+    </section>
+
+    <section>
+        <button id="vendas">Vendas</button><button id="estorno">Estorno</button>
+    </section>
+
+    <section id="table">
+        <table>
+            <tr>
+                <th>Sabores</th><th>Quantidade</th><th>Valores</th>
+            </tr>
+            <tr>
+                <td>Mussarela</td><td id="resultadomussarela"></td><td id="vendamussarela"></td>
+            </tr>
+            <tr>
+                <td>Mista</td><td id="resultadomista"></td><td id="vendamista"></td>
+            </tr>
+            <tr>
+                <td>Calabresa</td><td id="resultadocalabresa"></td><td id="vendacalabresa"></td>
+            </tr>
+            <tr>
+                <td>Strogonoff</td><td id="resultadostrogonoff"></td><td id="vendastrogonoff"></td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <button id="export">Gerar planilha</button>
+    </section>
+
+    <script src="tableToExcel.js"></script>
+    <script src="javascript.js"></script>
+
+</body>
+</html>

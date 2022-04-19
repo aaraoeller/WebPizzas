@@ -1,0 +1,113 @@
+/*======================
+    ELEMENTOS DO CORPO
+======================*/
+
+body {
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+    height: 60%;
+    border: 2px solid #730202;
+    padding: 0px 0px;
+    border-radius: 5px;
+    box-shadow: 1px 1px;
+    justify-content: center;
+    background-color: #BFB78F;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section form ul li {
+    list-style: none;
+}
+
+section form ul li label {
+    font-size: 22px;
+}
+
+
+/*====================
+    CABEÇALHO
+====================*/
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #F2CB05;
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section ul li {
+    display: inline-block;
+}
+
+header ul li {
+    list-style: none;
+}
+
+/*====================
+    MARGEM/BOX
+====================*/
+
+section {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    background-color: #F23030;
+}
+
+/*====================
+    FONTES
+====================*/
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*====================
+    BOTÕES
+====================*/
+
+section button {
+    margin: 5px;
+    margin-top: 8px;
+}
+
+button {
+    background-color: #F29F05;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+/*====================
+    TABELA
+====================*/
+
+table,
+th,
+td {
+    width: 30%;
+    margin-top: 8px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size: medium;
+    background-color: #D6D58E; 
+}
